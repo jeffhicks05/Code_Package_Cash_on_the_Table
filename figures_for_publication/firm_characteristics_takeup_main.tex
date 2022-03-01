@@ -1,0 +1,28 @@
+\begin{tabular}{lccc} \toprule 
+&\multicolumn{3}{c}{Pr(Claim $\mid$ Invest)}  \\
+ \cmidrule(lr){2-4}
+&         (1)  &         (2)  &         (3)    \\ 
+\cmidrule(lr){2-3} \cmidrule(lr){4-4} &  \multicolumn{2}{c}{Probit Model} & Selection Model \\  
+\midrule
+In Tax Loss Before AD&       -2.79***&       -2.85***&       -2.73***\\
+                    &      (0.45)   &      (0.43)   &      (0.43)   \\
+\addlinespace
+Ln(Tax Loss Stock $_{t-1}$) &       -0.09***&       -0.08** &       -0.08** \\
+                    &      (0.03)   &      (0.03)   &      (0.03)   \\
+\addlinespace
+Ln(Total Assets $_{t-1}$ )&        0.56***&        0.63***&        0.42***\\
+                    &      (0.11)   &      (0.11)   &      (0.14)   \\
+\addlinespace
+High and New Technology Enterprise&        2.24***&        1.80***&        1.83***\\
+                    &      (0.61)   &      (0.58)   &      (0.59)   \\
+\addlinespace
+$ Ln(K_{t,k} - K_{t-1,k}) $&        0.12***&        0.09** &        0.09** \\
+                    &      (0.04)   &      (0.04)   &      (0.04)   \\
+\addlinespace
+\midrule
+Two-Digit Industry FE&         Yes   &         Yes   &         Yes   \\
+Prefecture FE       &          No   &         Yes   &         Yes   \\
+N                   &       48663   &       48663   &      171846   \\
+Mean of Outcome Var.&        6.36   &        6.36   &        6.36   \\
+\bottomrule
+\end{tabular}

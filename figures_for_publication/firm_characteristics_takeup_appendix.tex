@@ -1,0 +1,37 @@
+\begin{tabular}{lccc} \toprule 
+&\multicolumn{3}{c}{Selection Model} \\
+&         (1)  &         (2)  &         (3)   \\ 
+\cmidrule(lr){2-2}\cmidrule(lr){3-4} &  Pr(Invest)  & \multicolumn{2}{c}{Pr(Claim $\mid$ Invest)}  \\ 
+\midrule
+In Tax Loss Before AD&       -7.11***&       -2.69***&       -2.73***\\
+                    &      (0.32)   &      (0.45)   &      (0.43)   \\
+\addlinespace
+Ln(Tax Loss Stock $_{t-1}$ )&       -0.20***&       -0.09***&       -0.08** \\
+                    &      (0.03)   &      (0.03)   &      (0.03)   \\
+\addlinespace
+Ln(Total Assets $_{t-1}$)&        4.21***&        0.39***&        0.42***\\
+                    &      (0.21)   &      (0.15)   &      (0.14)   \\
+\addlinespace
+High and New Technology Enterprise&        7.04***&        2.27***&        1.83***\\
+                    &      (0.62)   &      (0.61)   &      (0.59)   \\
+\addlinespace
+$ Ln(K_{t,k} - K_{t-1,k}) $&               &        0.12***&        0.09** \\
+                    &               &      (0.04)   &      (0.04)   \\
+\addlinespace
+Interest Deduction $_{t-1} > 0$&        2.41***&               &               \\
+                    &      (0.34)   &               &               \\
+\addlinespace
+$ Ln(K_{t-1}) - Ln(K_{t-2})$&        3.78***&               &               \\
+                    &      (0.38)   &               &               \\
+\addlinespace
+Ln(Cash Holdings$_{t-1}$)&        1.04***&               &               \\
+                    &      (0.11)   &               &               \\
+\addlinespace
+\midrule
+Two-Digit Industry FE&         Yes   &         Yes   &         Yes   \\
+Prefecture FE       &         Yes   &          No   &         Yes   \\
+N                   &      171846   &      171846   &      171846   \\
+Mean of Outcome Var.&       28.32   &        6.36   &        6.36   \\
+Excluded Variables Joint P-value&       0.000   &       0.000   &       0.000   \\
+\bottomrule
+\end{tabular}
