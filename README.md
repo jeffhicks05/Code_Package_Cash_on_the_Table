@@ -1,4 +1,4 @@
-# Code Package for Cash on the_Table
+# Code Package for Cash on the Table
 
 This repoository contains the code used in "Cash on the Table? Imperfect Take-up of Tax Incentives and Firm Investment Behavior" (Wei Cui, Jeffrey Hicks, Jing Xing) 2022. 
 
